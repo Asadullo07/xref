@@ -218,3 +218,57 @@ nav ul li button {
 .white_carts a {
     color: #164038;
 }
+
+.green {
+    background: #164038;
+    margin-top: 230px;
+    display: flex;
+    border-radius: 10px;
+    width: 1500px;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.visit {
+    width: 378px;
+    height: 89px;
+    margin-top: -160px;
+}
+
+.visit p {
+    font-weight: 400;
+    font-size: 21px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.visit h1 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.visit small {
+    width: 391px;
+    height: 63px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.visit button {
+    width: 174px;
+    height: 50px;
+    border-radius: 100px;
+    background: #E1FFA0;
+    color: #0C2520;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+}
