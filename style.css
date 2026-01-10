@@ -73,13 +73,148 @@ nav ul li button {
     border: none;
     margin-top: 64px;
 }
+
 .text_div button:nth-child(2) {
-  background: none;
-  border: none;
-  color: #FFFFFF;
-  margin-left: 45px;
-  font-size: 14px;
-  cursor: pointer;
-  font-weight: 400;
-  margin-top: 80px;
-}   
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    margin-left: 45px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.big_intro {
+    background: #0C2520;
+    height: 950px;
+}
+
+.bibb {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.introduction h1 {
+    width: 250px;
+    height: 133px;
+    font-weight: 400;
+}
+
+.sim_cart {
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.cart h1 {
+    color: #E1FFA0;
+    margin-bottom: 16px;
+    margin-top: 30px;
+}
+
+.cart p {
+    width: 590px;
+    height: 42px;
+}
+
+.sim3 {
+    display: flex;
+    align-items: center;
+    margin-left: 38px;
+    margin-right: 38px;
+    gap: 32px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.sim3 .carts {
+    background: #164038;
+    width: 380px;
+    height: 450px;
+    border-radius: 4px;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.carts p {
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+
+.carts h2 span {
+    font-weight: 400;
+    font-size: 32px;
+    color: #E1FFA0;
+    margin-top: 24px;
+
+}
+
+.carts h2 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.carts small {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 22px;
+}
+
+.platform {
+    text-align: center;
+}
+
+.platform h1 {
+    font-weight: 400;
+    font-size: 38px;
+    color: #0C2520;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.platform p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #0C2520;
+    margin-top: 100px;
+}
+
+.white_bill {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.white_carts {
+    width: 243px;
+    height: 104px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.white_carts h1 {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+}
+
+.white_carts p {
+    width: 243px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.white_carts a {
+    color: #164038;
+}
