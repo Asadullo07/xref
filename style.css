@@ -19,8 +19,13 @@ nav ul {
     display: flex;
     gap: 40px;
     align-items: center;
-}
+    margin-left: 320px;
 
+}
+nav ul li a {
+    color: #000000;
+    font-weight: 400;
+}
 nav ul li button {
     background: #164038;
     width: 153px;
