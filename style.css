@@ -321,14 +321,17 @@ nav ul li button {
 .teams_text {
     width: 490px;
 }
-.teams{
+
+.teams {
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
 }
+
 .teams_img {
     margin-top: 120px;
 }
+
 .new_p {
     width: 93px;
     height: 24px;
@@ -377,12 +380,64 @@ nav ul li button {
     height: 1px;
     border: 1px solid #0C25201A;
 }
-.profits{
+
+.profits {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.worker {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.worker{
-    display: flex;
-    align-items: center;
+
+.worker_text h1 {
+    width: 480px;
+    height: 89px;
+    font-weight: 400;
+    font-size: 42px;
+    color: #333333;
+    margin-top: 14px;
+}
+
+.worker_text p:nth-child(3) {
+    width: 486px;
+    height: 42px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 60px;
+}
+.catrss {
+    width: 300px;
+    height: 70px;
+    overflow: hidden;
+
+}
+.catrss a{
+    display: block;
+    width: 500px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #164038;
+    display: block;
+    margin-bottom: 18px;
+    justify-content: space-between;
+    position: relative;
+
+}
+.catrss button{
+    background: none;
+    border: 1px solid #0C252019;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color:#32735F;
+    position: absolute;
+    right: 220px;
 }
