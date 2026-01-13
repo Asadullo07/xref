@@ -22,10 +22,12 @@ nav ul {
     margin-left: 320px;
 
 }
+
 nav ul li a {
     color: #000000;
     font-weight: 400;
 }
+
 nav ul li button {
     background: #164038;
     width: 153px;
@@ -417,13 +419,15 @@ nav ul li button {
     color: #333333;
     margin-bottom: 60px;
 }
+
 .catrss {
     width: 300px;
     height: 70px;
     overflow: hidden;
 
 }
-.catrss a{
+
+.catrss a {
     display: block;
     width: 500px;
     height: 16px;
@@ -436,13 +440,204 @@ nav ul li button {
     position: relative;
 
 }
-.catrss button{
+
+.catrss button {
     background: none;
     border: 1px solid #0C252019;
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    color:#32735F;
+    color: #32735F;
     position: absolute;
     right: 220px;
+}
+
+.say p {
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.say h1 {
+    font-weight: 400;
+    font-size: 37px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 80px;
+}
+
+.westpac {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-items: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.westpac .westpac_carts {
+    width: 378px;
+    height: 328px;
+    background: #0C2520;
+    color: white;
+}
+
+.westpac_carts h2 {
+    font-weight: 400;
+    font-size: 24px;
+    width: 294px;
+    height: 59px;
+    margin-top: 200px;
+    margin-left: 32px;
+}
+
+.westpac_carts a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #32735F;
+    margin-left: 32px;
+}
+
+.westpac_cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 440px;
+}
+
+.cartw {
+    width: 520px;
+    height: 300px;
+    background: #164038;
+}
+
+.cartw h1 {
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.cartw span {
+    color: #E1FFA0;
+}
+
+.cartw p {
+    width: 367px;
+    height: 63px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+
+.cartw a {
+    display: block;
+    width: 124px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #E1FFA0;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.carter {
+    height: 300px;
+    width: 300px;
+    padding-left: 60px;
+    background: #164038;
+}
+
+.carter h1 {
+    font-weight: 400;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.carter p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.carter p span {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E1FFA0;
+    margin-right: 10px;
+}
+
+.westpac_cartss {
+    background: #0C2520;
+    width: 380px;
+    height: 300px;
+    margin-left: 880px;
+    justify-content: space-around;
+}
+
+.westpac_cartss h1 {
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 140px;
+    padding-left: 30px;
+}
+
+.westpac_cartss span {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    display: inline-block;
+    padding-left: 30px;
+}
+footer{
+    background-image: url("./assets/footerimg.png");
+    background-image: url("./assets/ade4e32bd86098c5527bce3180eeb5a2c5ab97d7.png");
+    height: 900px;
+    background-repeat: no-repeat;
+}
+.retain {
+    width: 500px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+
+.retain h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
+
+.retain h1 span {
+    color: #E1FFA0;
+}
+
+.retain p {
+    width: 520px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.retain button {
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 55px;
+    color: #FFFFFF;
 }
